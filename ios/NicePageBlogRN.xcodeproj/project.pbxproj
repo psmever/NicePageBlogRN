@@ -11,9 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		71B298AAC7322D460BAF5DD0 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAF6B3C802E86C9D04ED489 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a */; };
-		788C45AF442A9D27AC5FA1D9 /* libPods-NicePageBlogRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9A541221A10C3C484D1FA /* libPods-NicePageBlogRN.a */; };
+		56683E9E9BC27C57D21172F2 /* libPods-NicePageBlogRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E3D27B25CF8744C285CE00 /* libPods-NicePageBlogRN.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		93BA79082779CEDF00AF55F7 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BA79072779CEDF00AF55F7 /* SplashScreen.storyboard */; };
+		B5632972F63CA2B0AA375991 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 469277DC538DE2A7714885D0 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +37,15 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NicePageBlogRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NicePageBlogRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NicePageBlogRN/main.m; sourceTree = "<group>"; };
-		5FAF6B3C802E86C9D04ED489 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NicePageBlogRN-NicePageBlogRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		684EB355BA73133F87DC138A /* Pods-NicePageBlogRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicePageBlogRN.debug.xcconfig"; path = "Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN.debug.xcconfig"; sourceTree = "<group>"; };
-		6CA9A541221A10C3C484D1FA /* libPods-NicePageBlogRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NicePageBlogRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A30EF361F7568D5B3C16EF /* Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig"; path = "Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DF059CD8819490F6E651795 /* Pods-NicePageBlogRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicePageBlogRN.release.xcconfig"; path = "Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN.release.xcconfig"; sourceTree = "<group>"; };
+		469277DC538DE2A7714885D0 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NicePageBlogRN-NicePageBlogRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD257C68581912E29FF5CD5 /* Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig"; path = "Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NicePageBlogRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85C0C4D3E1D8F5C6B13E7325 /* Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig"; path = "Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig"; sourceTree = "<group>"; };
-		87116025AF03C672724748C7 /* Pods-NicePageBlogRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicePageBlogRN.release.xcconfig"; path = "Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN.release.xcconfig"; sourceTree = "<group>"; };
+		93BA79072779CEDF00AF55F7 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		CB11F22090D6E8CC212CAE04 /* Pods-NicePageBlogRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicePageBlogRN.debug.xcconfig"; path = "Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1E3D27B25CF8744C285CE00 /* libPods-NicePageBlogRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NicePageBlogRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F57FF1989A1ECCF0D16DF6 /* Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig"; path = "Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B298AAC7322D460BAF5DD0 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a in Frameworks */,
+				B5632972F63CA2B0AA375991 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788C45AF442A9D27AC5FA1D9 /* libPods-NicePageBlogRN.a in Frameworks */,
+				56683E9E9BC27C57D21172F2 /* libPods-NicePageBlogRN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				93BA79072779CEDF00AF55F7 /* SplashScreen.storyboard */,
 			);
 			name = NicePageBlogRN;
 			sourceTree = "<group>";
@@ -100,10 +103,21 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6CA9A541221A10C3C484D1FA /* libPods-NicePageBlogRN.a */,
-				5FAF6B3C802E86C9D04ED489 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a */,
+				F1E3D27B25CF8744C285CE00 /* libPods-NicePageBlogRN.a */,
+				469277DC538DE2A7714885D0 /* libPods-NicePageBlogRN-NicePageBlogRNTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E352E7C6C03CA3894EBFDE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB11F22090D6E8CC212CAE04 /* Pods-NicePageBlogRN.debug.xcconfig */,
+				3DF059CD8819490F6E651795 /* Pods-NicePageBlogRN.release.xcconfig */,
+				F9F57FF1989A1ECCF0D16DF6 /* Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig */,
+				7DD257C68581912E29FF5CD5 /* Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -121,7 +135,7 @@
 				00E356EF1AD99517003FC87E /* NicePageBlogRNTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				95042DD6D9587813D52D9C71 /* Pods */,
+				3E352E7C6C03CA3894EBFDE6 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,18 +151,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95042DD6D9587813D52D9C71 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				684EB355BA73133F87DC138A /* Pods-NicePageBlogRN.debug.xcconfig */,
-				87116025AF03C672724748C7 /* Pods-NicePageBlogRN.release.xcconfig */,
-				80A30EF361F7568D5B3C16EF /* Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig */,
-				85C0C4D3E1D8F5C6B13E7325 /* Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NicePageBlogRNTests" */;
 			buildPhases = (
-				03B4693A8C629D5A8CB07368 /* [CP] Check Pods Manifest.lock */,
+				07033D43211135F9C4087229 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				1BC193CFCB6D847BCBCC62A4 /* [CP] Embed Pods Frameworks */,
-				DA37894C482DDA2D1C2EF655 /* [CP] Copy Pods Resources */,
+				E2AFE03BA45B291D5E888A61 /* [CP] Embed Pods Frameworks */,
+				DCA992F3E78A7F24F742B28E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +179,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NicePageBlogRN" */;
 			buildPhases = (
-				B95A6B9AC0248407D66B8F68 /* [CP] Check Pods Manifest.lock */,
+				48F59E8661B91A07CA9233D3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3CE5486346CACABC36D59748 /* [CP] Embed Pods Frameworks */,
-				96503D13B1EA102A3BF3CDFF /* [CP] Copy Pods Resources */,
+				F00F3F56DA838E4F35E037A8 /* [CP] Embed Pods Frameworks */,
+				DB466EFA5E7E81877EBDCA63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				93BA79082779CEDF00AF55F7 /* SplashScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +268,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		03B4693A8C629D5A8CB07368 /* [CP] Check Pods Manifest.lock */ = {
+		07033D43211135F9C4087229 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,58 +290,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1BC193CFCB6D847BCBCC62A4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3CE5486346CACABC36D59748 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96503D13B1EA102A3BF3CDFF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B95A6B9AC0248407D66B8F68 /* [CP] Check Pods Manifest.lock */ = {
+		48F59E8661B91A07CA9233D3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,7 +312,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA37894C482DDA2D1C2EF655 /* [CP] Copy Pods Resources */ = {
+		DB466EFA5E7E81877EBDCA63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA992F3E78A7F24F742B28E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +344,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AFE03BA45B291D5E888A61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN-NicePageBlogRNTests/Pods-NicePageBlogRN-NicePageBlogRNTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00F3F56DA838E4F35E037A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicePageBlogRN/Pods-NicePageBlogRN-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +432,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80A30EF361F7568D5B3C16EF /* Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig */;
+			baseConfigurationReference = F9F57FF1989A1ECCF0D16DF6 /* Pods-NicePageBlogRN-NicePageBlogRNTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +459,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85C0C4D3E1D8F5C6B13E7325 /* Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig */;
+			baseConfigurationReference = 7DD257C68581912E29FF5CD5 /* Pods-NicePageBlogRN-NicePageBlogRNTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +483,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 684EB355BA73133F87DC138A /* Pods-NicePageBlogRN.debug.xcconfig */;
+			baseConfigurationReference = CB11F22090D6E8CC212CAE04 /* Pods-NicePageBlogRN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +509,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87116025AF03C672724748C7 /* Pods-NicePageBlogRN.release.xcconfig */;
+			baseConfigurationReference = 3DF059CD8819490F6E651795 /* Pods-NicePageBlogRN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
