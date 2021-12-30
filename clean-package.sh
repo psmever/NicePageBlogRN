@@ -28,12 +28,12 @@ echo "\n${GREEN}NPM Install${CLEAR}"
 npm install
 
 # Yarn cache
-echo "\n${GREEN}Yarn cache${CLEAR}"
-yarn cache clean
+#echo "\n${GREEN}Yarn cache${CLEAR}"
+#yarn cache clean
 
 # Yarn packages
-echo "\n${GREEN}Yarn packages${CLEAR}"
-yarn install
+#echo "\n${GREEN}Yarn packages${CLEAR}"
+#yarn install
 
 # iOS build folder
 echo "\n${GREEN}iOS build folder${CLEAR}"
