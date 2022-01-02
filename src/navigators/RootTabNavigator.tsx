@@ -26,7 +26,7 @@ export default function RootTabNavigator() {
                         case 'PostTab':
                             iconName = 'view-dashboard-outline';
                             break;
-                        case 'Search':
+                        case 'SearchTab':
                             iconName = 'magnify';
                             break;
                         case 'Community':
@@ -49,9 +49,10 @@ export default function RootTabNavigator() {
                 headerShown: false,
             })}>
             <Tab.Screen name="PostTab" component={PostStackNavigator} />
-            {/*<Tab.Screen name="Community" component={CommunityStackNavigator} />*/}
-            {/*<Tab.Screen name="News" component={NewsStackNavigator} />*/}
-            {/*<Tab.Screen name="Profile" component={ProfileStackNavigator} />*/}
+            <Tab.Screen name="SearchTab" component={PostStackNavigator} />
+            <Tab.Screen name="ScribbleTab" component={PostStackNavigator} />
+            <Tab.Screen name="MingunTab" component={PostStackNavigator} />
+            <Tab.Screen name="BlogTab" component={PostStackNavigator} />
         </Tab.Navigator>
     );
 }

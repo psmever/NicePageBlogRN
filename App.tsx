@@ -9,8 +9,8 @@
  */
 
 import React from 'react';
-import {RootProvider} from './src/contexts/RootContext';
-import AppRoot from './src/AppRoot';
+import {RootProvider} from '@contexts/RootContext';
+import AppRoot from '@/AppRoot';
 
 const App = () => {
     return (

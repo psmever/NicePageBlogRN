@@ -1,9 +1,9 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 
-import RootTabNavigator from './navigators/RootTabNavigator';
+import RootTabNavigator from '@navigators/RootTabNavigator';
 
-import LoginScreen from './screens/LoginScreen';
+import LoginScreen from '@screens/LoginScreen';
 
 function AppRoot() {
     const isLogin = true;
