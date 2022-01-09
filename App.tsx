@@ -9,7 +9,7 @@
  */
 
 import React from 'react';
-import {RootProvider} from '@contexts/RootContext';
+import { RootProvider } from '@contexts/RootContext';
 import AppRoot from '@/AppRoot';
 
 const App = () => {

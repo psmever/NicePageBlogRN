@@ -1,9 +1,9 @@
-import React, {createContext, useEffect} from 'react';
+import React, { createContext, useEffect } from 'react';
 import SplashScreen from 'react-native-splash-screen';
 
-const RootContext = createContext({init: false});
+const RootContext = createContext({ init: false });
 
-export const RootProvider: React.FC = ({children}) => {
+export const RootProvider: React.FC = ({ children }) => {
     useEffect(() => {
         console.debug('RootProvider ::  App Start');
     }, []);
@@ -14,11 +14,7 @@ export const RootProvider: React.FC = ({children}) => {
         }, 2000);
     }, []);
 
-    return (
-        <RootContext.Provider value={{init: false}}>
-            {children}
-        </RootContext.Provider>
-    );
+    return <RootContext.Provider value={{ init: false }}>{children}</RootContext.Provider>;
 };
 
 export default RootProvider;

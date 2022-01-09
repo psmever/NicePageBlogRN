@@ -1,13 +1,13 @@
 import React from 'react';
-import {View, StyleSheet, Button} from 'react-native';
+import { View, StyleSheet, Button } from 'react-native';
 
-export default ({navigation}: {navigation: any}) => {
+export default ({ navigation }: { navigation: any }) => {
     return (
         <View style={styles.container}>
             <Button
-                title={'Posts'}
+                title={'Scribble'}
                 onPress={() => {
-                    navigation.navigate('PostDetail', {name: 'Jane'});
+                    navigation.navigate('ScribbleDetail', { name: 'Jane' });
                 }}
             />
         </View>
